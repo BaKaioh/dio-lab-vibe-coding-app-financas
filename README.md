@@ -1,4 +1,4 @@
-💸 Fine- App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 Fine- App de Organização de Finanças Pessoais com Vibe Coding
 
 App para pessoas com zero ou pouca experiência com tecnologia ou ferramentas de I.A. No estilo "conversa amigável".
 
@@ -338,17 +338,28 @@ Indicadores:
 - Planejamento de investimentos
 - Compartilhamento financeiro familiar
 ```
-Capturas de tela do app
+## Capturas de tela do app
+
 <img width="1477" height="792" alt="captura app fine 3" src="https://github.com/user-attachments/assets/31b337ec-eca0-44e9-9005-83e3f29e4137" />
->Interações com o chat via texto e voz ("achei cem reais na rua") e criação de metas pelo chat.
+
+> Interações com o chat via texto e voz ("achei cem reais na rua") e criação de metas pelo chat.
+
 <img width="1606" height="812" alt="captura app fine 1" src="https://github.com/user-attachments/assets/77bf8c29-a88c-4f59-a871-793249bf3015" />
->Aba "Seu Painel"
+
+> Aba "Seu Painel"
+
 <img width="1482" height="782" alt="captura app fine 2" src="https://github.com/user-attachments/assets/69be9969-c3a2-4ad4-b489-21b31014bbb3" />
->Aba Metas
-> Vídeo da aba "Relatórios", mostrando as interações com gráficos e auto classificação dos gastos.
+
+> Aba Metas
+
 https://github.com/user-attachments/assets/fa9a1b40-3703-436a-98d9-bc7dc5d651ff
 
+> Vídeo da aba "Relatórios", mostrando as interações com gráficos e auto classificação dos gastos.
 
+## Resumo
+Nome: Fine - O Lovable criou o app com o nome "Fino", alterei para "Fine" por ter semelhança com a palavra finance, do inglês.
+Cor: Fugindo do tom padrão de verde associado ao dinheiro, este tom de azul possui um equilíbrio para transmitir clareza e conforto para o usuário para que ele sinta o controle de suas finanças.
+Interação: Texto e voz operando normalmente, o agente analisa e classifica os gastos automaticamente. Na captura anexada acima escrevi "gastei 45 no cinema e 25 de gasolina", então o assistente identificou cinema como lazer e gasolina como transporte.
 
 ## 💬 Conclusão
 
