@@ -1,6 +1,6 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+💸 Fine- App de Organização de Finanças Pessoais com Vibe Coding
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+App para pessoas com zero ou pouca experiência com tecnologia ou ferramentas de I.A. No estilo "conversa amigável".
 
 ## ✨ O que é Vibe Coding
 
@@ -14,9 +14,6 @@ Problema: Muitas pessoas não conseguem manter um controle financeiro porque os 
 
 Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
-
 ## 🪄 Etapas do Desafio
 
 ### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
@@ -26,63 +23,332 @@ Antes de pedir para a IA "criar um app", é importante definir com clareza o que
 Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
 ```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
-
+# PRD - Organizador de Finanças Pessoais Conversacional
+## Visão Geral
+Criar uma aplicação de organização de finanças pessoais baseada em conversação, permitindo que o usuário registre receitas, despesas, metas e consulte sua situação financeira por meio de mensagens de texto ou voz.
+O sistema deve agir como um "Agente Financeiro Pessoal", oferecendo uma experiência simples, amigável e educativa, semelhante a uma conversa entre amigos.
+O objetivo principal é eliminar a complexidade dos aplicativos financeiros tradicionais e aumentar a frequência de uso através de uma interface conversacional intuitiva.
+---
 # Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
-
+Muitas pessoas desejam controlar suas finanças, mas abandonam rapidamente os aplicativos existentes porque:
+- Exigem preenchimento manual excessivo.
+- Possuem interfaces complexas.
+- Utilizam termos financeiros difíceis.
+- Não oferecem acompanhamento personalizado.
+- Não incentivam a criação do hábito financeiro.
+Como consequência, os usuários perdem visibilidade sobre seus gastos e têm dificuldade em economizar ou atingir metas financeiras.
+---
+# Objetivo do Produto
+Permitir que qualquer pessoa organize sua vida financeira apenas conversando com o aplicativo de forma natural.
+Exemplos:
+"Gastei R$ 25 com lanche."
+"Recebi meu salário de R$ 3.000."
+"Quanto eu já gastei este mês?"
+"Estou guardando dinheiro para uma viagem."
+O sistema deverá interpretar automaticamente as informações, registrar os dados e fornecer orientações financeiras personalizadas.
+---
 # Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
-
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
-
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+### Primário
+- Pessoas iniciando sua organização financeira.
+- Usuários sem experiência com planilhas.
+- Pessoas com baixa familiaridade tecnológica.
+- Jovens adultos iniciando controle financeiro.
+### Secundário
+- Pessoas que já utilizam apps financeiros, mas buscam algo mais simples.
+- Usuários interessados em usar Inteligência Artificial para auxiliar no planejamento financeiro.
+---
+# Proposta de Valor
+Transformar o controle financeiro em uma conversa simples, amigável e sem burocracia.
+Enquanto aplicativos tradicionais exigem formulários e múltiplas etapas, o usuário apenas conversa com o sistema.
+---
+# Personalidade do Agente Financeiro
+O Agente Financeiro deve atuar como um amigo organizado e confiável.
+Características:
+- Amigável
+- Motivador
+- Educativo
+- Empático
+- Não julgador
+- Objetivo
+- Linguagem acessível
+Evitar:
+- Linguagem excessivamente técnica
+- Críticas ao usuário
+- Tom formal ou corporativo
+Exemplo:
+Usuário:
+"Gastei R$ 50 com pizza."
+Resposta:
+"Perfeito 😊. Registrei R$ 50 em Alimentação. Este foi seu terceiro gasto com delivery nesta semana."
+---
+# Design System
+## Estilo Visual
+Aplicação moderna, amigável e minimalista.
+Inspirada em:
+- Nubank
+- Copilot
+- Duolingo
+- Notion
+---
+## Paleta de Cores
+Cor Primária:
+#4F46E5
+Cor Secundária:
+#10B981
+Cor de Destaque:
+#F59E0B
+Fundo Claro:
+#F8FAFC
+Texto Principal:
+#1E293B
+Texto Secundário:
+#64748B
+Erro:
+#EF4444
+Sucesso:
+#22C55E
+---
+## Tipografia
+Fonte Principal:
+Inter
+Fonte Secundária:
+Poppins
+---
+## Componentes
+- Cards arredondados
+- Botões grandes
+- Navegação simplificada
+- Interface acessível
+- Ícones intuitivos
+- Dashboard limpo
+- Chat semelhante a aplicativos de mensagens
+---
+## Acessibilidade
+- Contraste adequado
+- Fonte escalável
+- Botões com área de toque ampliada
+- Linguagem simples
+- Compatibilidade com modo escuro
+---
+# Funcionalidades do MVP
+## 1. Registro de Transações por Chat
+Permitir registro de receitas e despesas através de linguagem natural.
+Exemplos:
+"Gastei R$ 20 em doces."
+"Gastei R$ 60 com gasolina."
+"Recebi R$ 1.500 de um freela."
+O sistema deve extrair:
+- Tipo
+- Valor
+- Categoria
+- Descrição
+- Data
+---
+## 2. Classificação Automática
+O sistema deverá categorizar automaticamente as transações.
+Categorias iniciais:
+- Alimentação
+- Transporte
+- Moradia
+- Saúde
+- Educação
+- Lazer
+- Compras
+- Contas
+- Investimentos
+- Outros
+O usuário poderá alterar a categoria manualmente.
+---
+## 3. Registro por Voz
+Permitir que o usuário fale naturalmente.
+Fluxo:
+Voz → Transcrição → Interpretação → Registro
+---
+## 4. Metas Financeiras
+Permitir criação e acompanhamento de metas.
+Exemplos:
+- Economizar R$ 500 por mês
+- Comprar um celular
+- Fazer uma viagem
+- Montar reserva de emergência
+Informações:
+- Nome da meta
+- Valor objetivo
+- Valor acumulado
+- Data opcional
+---
+## 5. Dashboard Financeiro
+Apresentar visão simples da situação financeira.
+Indicadores:
+- Saldo atual
+- Total de receitas
+- Total de despesas
+- Economia do mês
+- Progresso das metas
+---
+## 6. Insights Inteligentes
+O Agente Financeiro deverá gerar recomendações automáticas.
+Exemplos:
+"Você gastou 20% mais com alimentação neste mês."
+"Reduzindo dois pedidos por semana você pode economizar aproximadamente R$ 120 por mês."
+"Você está próximo da sua meta de reserva de emergência."
+---
+## 7. Histórico de Conversas
+Armazenar interações para dar contexto às conversas futuras.
+Exemplos:
+"Quanto gastei com alimentação este mês?"
+"Quanto economizei desde janeiro?"
+---
+# Fluxos Principais
+## Fluxo 1 - Registrar Despesa
+Usuário:
+"Gastei R$ 35 na farmácia."
+Sistema:
+- Detecta valor
+- Classifica como Saúde
+- Registra operação
+Resposta:
+"Perfeito 😊. Registrei R$ 35 em Saúde."
+---
+## Fluxo 2 - Registrar Receita
+Usuário:
+"Recebi meu salário de R$ 3.500."
+Sistema:
+- Identifica receita
+- Registra entrada
+Resposta:
+"Ótimo! Recebi uma entrada de R$ 3.500 na sua conta."
+---
+## Fluxo 3 - Consulta Financeira
+Usuário:
+"Quanto já gastei este mês?"
+Sistema:
+- Calcula despesas
+Resposta:
+"Neste mês você registrou R$ 1.245 em despesas."
+---
+## Fluxo 4 - Criar Meta
+Usuário:
+"Quero guardar R$ 5.000 para uma viagem."
+Sistema:
+- Cria meta
+Resposta:
+"Meta criada 🎯. Vamos acompanhar sua evolução rumo aos R$ 5.000."
+---
+# Estrutura de Dados
+## Usuário
+id
+nome
+email
+data_criacao
+objetivo_financeiro
+---
+## Transação
+id
+usuario_id
+tipo
+valor
+categoria
+descricao
+data_transacao
+data_criacao
+---
+## Meta
+id
+usuario_id
+nome
+valor_objetivo
+valor_atual
+data_limite
+status
+---
+## Conversa
+id
+usuario_id
+mensagem
+resposta
+data
+---
+# Telas do MVP
+## Tela 1 - Boas-vindas
+Objetivo:
+Conhecer o usuário.
+Perguntas:
+- Como gostaria de ser chamado?
+- Qual seu principal objetivo financeiro?
+---
+## Tela 2 - Chat Principal
+Funcionalidades:
+- Texto
+- Voz
+- Registro financeiro
+- Consultas
+- Recomendações
+---
+## Tela 3 - Dashboard
+Exibir:
+- Saldo
+- Receitas
+- Despesas
+- Metas
+---
+## Tela 4 - Metas
+Criar, editar e acompanhar metas.
+---
+## Tela 5 - Relatórios
+Visualizações simples:
+- Gastos por categoria
+- Evolução mensal
+- Comparação entre períodos
+---
+# Métricas de Sucesso
+## Produto
+- Usuários ativos semanais
+- Retenção de 7 dias
+- Retenção de 30 dias
+---
+## Engajamento
+- Quantidade de transações registradas
+- Número de metas criadas
+- Conversas por usuário
+---
+## Validação da Hipótese
+Hipótese:
+"Pessoas registram mais gastos quando utilizam conversa natural em vez de formulários."
+Indicadores:
+- Mais de 70% dos registros realizados via chat
+- Crescimento do número médio de registros por usuário
+- Retenção superior à observada em aplicativos financeiros tradicionais
+---
+# Requisitos Não Funcionais
+- Interface responsiva
+- Mobile First
+- Tema claro e escuro
+- Respostas rápidas (< 3 segundos)
+- Segurança dos dados
+- LGPD compliance
+- Criptografia de dados sensíveis
+---
+# Futuras Versões
+- Integração bancária (Open Finance)
+- Importação automática de extratos
+- Planejamento financeiro avançado
+- Detecção de gastos recorrentes
+- Alertas inteligentes
+- Planejamento de investimentos
+- Compartilhamento financeiro familiar
 ```
+Capturas de tela do app
+<img width="1477" height="792" alt="captura app fine 3" src="https://github.com/user-attachments/assets/31b337ec-eca0-44e9-9005-83e3f29e4137" />
+>Interações com o chat via texto e voz ("achei cem reais na rua") e criação de metas pelo chat.
+<img width="1606" height="812" alt="captura app fine 1" src="https://github.com/user-attachments/assets/77bf8c29-a88c-4f59-a871-793249bf3015" />
+>Aba "Seu Painel"
+<img width="1482" height="782" alt="captura app fine 2" src="https://github.com/user-attachments/assets/69be9969-c3a2-4ad4-b489-21b31014bbb3" />
+>Aba Metas
+> Vídeo da aba "Relatórios", mostrando as interações com gráficos e auto classificação dos gastos.
+https://github.com/user-attachments/assets/fa9a1b40-3703-436a-98d9-bc7dc5d651ff
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
-
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
-
-### 3. Entregando o Desafio na DIO
-
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
-
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
-
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
 ## 💬 Conclusão
 
